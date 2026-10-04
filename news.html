@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青春华章</title>
+    <style>/*这里是样式*/
+        h1{/*这是一个元素选择器，也叫标签选择器*/
+            text-align: center;
+            font-family: 宋体;
+            font-weight: bold;
+            color: orangered;
+        }
+        h4{/*这是一个元素选择器，也叫标签选择器*/
+            font-size: 14px;
+            color: grey;
+            text-align: center;
+        }
+        img{/*这是一个元素选择器，也叫标签选择器*/
+            width: 540px;
+            height: 390px;
+            padding-left: 30%;
+        }
+        #img_no1{/*这是一个id选择器*/
+            width: 800px;
+            padding-left: 20%;
+        }
+        .img_no2{/*这是一个class选择器*/
+            width: 800px;
+            padding-left: 20%;
+        }
+        #apple{
+            color: red;
+            line-height: 30px;
+            font-size: 25px;            
+        }
+        .pa_sty{
+            font-size: 18px;
+            line-height: 30px;
+            width: 800px;
+            margin: 20px auto;/*外边距 适用于块级元素 比如段落p就是块级元素 auto就是左右自动计算并且居中*/
+            text-indent: 2em;
+        }
+        #apple .abc{
+            color:brown;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!--这里是一个标题标签-->
+    <h1 id="top">青春华章｜亮度超太阳百亿倍！封东来院士揭秘“超级X光机”</h1>
+    <h4><a href="index.html">返回首页</a>来源：光明网2026-09-08 09:18</h4>
+    <!--这里是一个分割线标签-->
+    <hr/>
+    <!--我的前端页面是一个流   从上往下一点点形成-->
+    <!--插入一幅图片 图片是行内元素-->
+    <img id="img_no1" src="img/news1.webp"/>
+    <!--段落是块级元素-->
+    <p class="pa_sty">中国援建的伊洛潘戈供水厂位于萨尔瓦多圣萨尔瓦多大区东部伊洛潘戈地区。项目建设内容包括水处理厂、输水管线、变配电设施和泵站等。该项目将改善伊洛潘戈、索亚潘戈和圣马丁等7个地区约25万居民的用水条件，是中萨民生领域务实合作项目之一。</p>
+    <img class="img_no2" src="img/news2.webp"/>
+    <p class="pa_sty">这是9月3日在萨尔瓦多圣萨尔瓦多大区东部拍摄的伊洛潘戈供水厂的絮凝沉淀处理设施及配套控制设备。新华社记者 柳文惠 摄</p>
+    <img class="img_no2" src="img/xc.png"/>
+    <p class="pa_sty">在这里，苹果种植不是<strong>“靠天吃饭”</strong>。果树的底下铺了一层银色的反光膜，苹果着色需要足够的光照，但是一棵果树各部分的光照条件是不一样的。果树的外围和上部可以晒到充足的阳光，但内部和下面的果实很容易出现着色不均的“青头”现象。反光膜的作用就是把直射光变成散射光，即使在阴天这种日照时间短的情况下，反光膜也能帮助果子比较均匀地增色。目前，苹果着色率能达到近100%，果子漂亮卖相好，这可是种植户钱包里实打实的收入。</p>
+    <h4 id="apple">测糖分和硬度 苹果兼具<span class="abc">“颜值”</span>和<span class="abc">“内涵”</span></h4>
+    <a href="#top">返回顶部</a>
+</body>
+</html>
